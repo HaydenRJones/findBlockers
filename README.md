@@ -3,6 +3,8 @@ Generate putative blocking oligos based on barcoding sequences for use in target
 
 Takes an excel file as an input containing two columns 'barcode_name' and 'barcode_sequence', for each of the sequences in this file it prepends sets of random bases until an oligo is found that melts within a set range. The results are then written to another excel file along with the estimated melting temperature.
 
+Default melting temperatures are based on the blockers published in [Scheunert et al. "Nano-Strainer: A workflow for the identification of single-copy nuclear loci for plant systematic studies, using target capture kits and Oxford Nanopore long reads" ](https://doi.org/10.1002/ece3.10190)
+
 ## Script requirements
 ```
 - Python 3.X
